@@ -1,0 +1,57 @@
+*{
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 3700px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.navbar {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 3.5rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+}
+
+.logo{
+    max-width: 40px;
+    max-height: 70px;
+}
+
+main{
+    display: flex;
+
+}
+
+.action{
+    width: 478px;
+    height: 362px;
+}
+
+.service-img{
+    max-width: 597px;
+    height: auto;
+}
