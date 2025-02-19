@@ -101,21 +101,38 @@ main{
 }
 
 .service-img{
-    width: 100%;
-    height: auto;
-    margin-bottom: 2rem;
-    
-}
-.clients{
-    display: flex;
-    flex-direction: column;
-}
-
-.service-img{
     width: 90%;
     height: auto;
+    margin-bottom: 2rem; 
 }
 
+.img-container{
+    display: flex;
+    align-items: center;
+}
+.clients{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 2.6rem;
+    margin-bottom: 2.6rem;
+}
+
+.titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EFF2FF;
     width: 355px;
+    height: 334px;
+    border-radius: 1rem;
+    padding-top: 2rem;
+
 }
