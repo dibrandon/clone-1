@@ -66,7 +66,7 @@ main{
 .container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .action{
@@ -112,7 +112,6 @@ main{
 }
 .clients{
     width: 100%;
-    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -134,5 +133,6 @@ main{
     height: 334px;
     border-radius: 1rem;
     padding-top: 2rem;
+    margin: 0.5rem;
 
 }
